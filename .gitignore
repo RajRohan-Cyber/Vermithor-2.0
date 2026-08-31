@@ -1,21 +1,21 @@
-.env
-
-**pycache**/
-*.pyc
-*.pyo
+__pycache__/
+*.py[cod]
 *.log
 
-data/memory.json
-data/settings.json
+.env
+.venv/
+venv/
 
 build/
 dist/
 
+*.spec.bak
+
+data/memory.json
+data/settings.json
+
 .vscode/
 .idea/
-.venv/
-venv/
-env/
 
-Thumbs.db
 .DS_Store
+Thumbs.db
