@@ -87,7 +87,7 @@ You will need:
 * A working microphone
 * Ollama
 * A locally available Ollama model
-* The Python packages listed in `requirements.txt`
+* The Python packages listed in requirements.txt
 
 ## Installation
 
