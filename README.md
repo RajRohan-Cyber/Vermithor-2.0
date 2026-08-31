@@ -36,49 +36,44 @@ This version was developed as an expansion of the earlier Vermithor 1.0 project.
 ## Project Structure
 
 Vermithor-2.0/
-│
 ├── app.py
 ├── main.py
-├── requirements.txt
-├── test_ai.py
 ├── mic_devices.py
 ├── mic_test.py
+├── requirements.txt
 ├── start_vermithor.pyw
+├── test_ai.py
 ├── Vermithor.spec
-│
 ├── assets/
-│
 ├── data/
-│
 └── vermithor/
-    │
     ├── __init__.py
-    │
     ├── actions/
+    │   ├── __init__.py
     │   ├── apps.py
     │   ├── automation.py
     │   ├── browser.py
     │   ├── files.py
     │   ├── system.py
     │   └── web.py
-    │
     ├── audio/
+    │   ├── __init__.py
     │   ├── listener.py
     │   ├── speech.py
     │   ├── tts.py
     │   └── wakeword.py
-    │
     ├── brain/
+    │   ├── __init__.py
     │   └── ai.py
-    │
     ├── core/
+    │   ├── __init__.py
     │   ├── assistant.py
     │   ├── logger.py
     │   ├── memory.py
     │   ├── router.py
     │   └── system.py
-    │
     └── gui/
+        ├── __init__.py
         ├── theme.py
         └── window.py
 
