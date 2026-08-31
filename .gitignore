@@ -9,8 +9,6 @@ venv/
 build/
 dist/
 
-*.spec.bak
-
 data/memory.json
 data/settings.json
 
