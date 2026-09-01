@@ -41,7 +41,6 @@ Vermithor-2.0/
 ├── mic_devices.py
 ├── mic_test.py
 ├── requirements.txt
-├── start_vermithor.pyw
 ├── test_ai.py
 ├── Vermithor.spec
 ├── assets/
